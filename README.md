@@ -18,3 +18,4 @@ A Free CI to Build OrangeFox Recovery
 
 ## Credits
 - [Sushrut1101](https://github.com/Sushrut1101) - For Making this CI
+# Build test
