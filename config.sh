@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_14.1"
-export DT_LINK="https://github.com/jsauce454/twrp_device_google_blazer.git -b fox_14.1"
+export FOX_BRANCH="main"
+export DT_LINK="https://github.com/jsauce454/twrp_device_google_blazer.git -b main"
 
 export DEVICE="blazer"
 export OEM="google"
