@@ -9,7 +9,7 @@ export OEM="google"
 
 # Build Target
 export TARGET="vendorbootimage"
-export OUTPUT="OrangeFox-*.zip"
+export OUTPUT="OrangeFox*.zip"
 
 # Additional Dependencies (eg: Kernel Source)
 # Format: "repo dest"
