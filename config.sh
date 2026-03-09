@@ -9,6 +9,7 @@ export OEM="google"
 
 # Build Target
 export TARGET="vendorbootimage"
+export TARGET_PRODUCT="twrp_14.1"
 export OUTPUT="OrangeFox*.zip"
 
 # Additional Dependencies (eg: Kernel Source)
@@ -36,7 +37,7 @@ export OF_QUICK_BACKUP_LIST=""
 export OF_USE_TWRP_SAR_DETECT="true"
 
 # Not Recommended to Change
-export SYNC_PATH="$HOME/work" # Full (absolute) path.
+export SYNC_PATH="/home/jarvis/fox_14.1"
 export USE_CCACHE=1
 export CCACHE_SIZE="50G"
 export CCACHE_DIR="$HOME/work/.ccache"
