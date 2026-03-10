@@ -40,7 +40,7 @@ export OF_USE_TWRP_SAR_DETECT="true"
 export FOX_AB_DEVICE=1
 
 # Not Recommended to Change
-# export SYNC_PATH="/home/jarvis/fox_14.1"
+export SYNC_PATH="$HOME/fox_14.1"
 export USE_CCACHE=1
 export CCACHE_SIZE="50G"
 export CCACHE_DIR="$HOME/work/.ccache"
