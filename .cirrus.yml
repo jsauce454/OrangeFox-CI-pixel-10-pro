@@ -28,3 +28,18 @@ task:
   Upload_script:
       - export TIMEOUT=43200 # Link timeout (in minutes)
       - bash -c "$(curl -sL https://raw.githubusercontent.com/OrangeFoxRecovery/OrangeFox-CI/fox/scripts/upload.sh)"
+
+  # Debug: List files in sync path
+  debug_files_script:
+      - ls -la $HOME/fox_14.1/
+      - ls -la $HOME/fox_14.1/build/ 2>/dev/null || echo "No build directory"
+
+  # Debug: Show envsetup.sh existence
+  debug_envsetup_script:
+      - test -f $HOME/fox_14.1/build/envsetup.sh && echo "envsetup.sh EXISTS" || echo "envsetup.sh MISSING"
+
+  # Save build logs as artifact
+  logs_artifacts:
+      path: /tmp/*.log
+      type: text/plain
+      optional: true
