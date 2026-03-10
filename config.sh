@@ -9,7 +9,7 @@ export OEM="google"
 
 # Build Target
 export TARGET="vendorbootimage"
-export TARGET_PRODUCT="twrp_14.1"
+export TARGET_PRODUCT="twrp_blazer-eng"
 export OUTPUT="OrangeFox*.zip"
 
 # Additional Dependencies (eg: Kernel Source)
@@ -35,6 +35,9 @@ export OF_SKIP_MAGISK_DETECTION="true"
 export OF_DISABLE_MIUI_SPECIFIC_FEATURES="true"
 export OF_QUICK_BACKUP_LIST=""
 export OF_USE_TWRP_SAR_DETECT="true"
+
+# A/B Device
+export FOX_AB_DEVICE=1
 
 # Not Recommended to Change
 export SYNC_PATH="/home/jarvis/fox_14.1"
