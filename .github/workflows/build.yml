@@ -1,0 +1,20 @@
+name: OrangeFox Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Build OrangeFox
+        run: |
+          echo "Building OrangeFox for Pixel 10 Pro..."
+          # This is a placeholder - you'd need to set up the full build environment
+          echo "FOX_BRANCH=fox_14.1"
+          echo "DEVICE=blazer"
