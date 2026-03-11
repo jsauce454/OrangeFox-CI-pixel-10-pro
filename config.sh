@@ -9,7 +9,7 @@ export OEM="google"
 
 # Build Target
 export TARGET="vendorbootimage"
-export TARGET_PRODUCT="twrp_blazer-eng"
+export TARGET_PRODUCT="twrp_blazer-ap2a-eng"
 export OUTPUT="OrangeFox*.zip"
 
 # Additional Dependencies (eg: Kernel Source)
